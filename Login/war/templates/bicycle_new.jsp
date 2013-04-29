@@ -2,18 +2,18 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page isELIgnored="false" %>
 <% 
-	if(session.getAttribute("loginID") == null){
+	/* if(session.getAttribute("loginID") == null){
 		response.sendRedirect("/");
-	}
+	} */
 %>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Welcome, Coffee-Shop</title>
 <%
-		if(!session.getAttribute("loginID").toString().equals("admin")){
+		/* if(!session.getAttribute("loginID").toString().equals("admin")){
 			response.sendRedirect("/");
-		}
+		} */
 	%>
 </head>
 <body>

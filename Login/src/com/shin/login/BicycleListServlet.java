@@ -65,13 +65,14 @@ public class BicycleListServlet extends HttpServlet{
 	public void postAll(HttpServletRequest req, HttpServletResponse resp){
 		PersistenceManager pm = PMF.get().getPersistenceManager();
 		String query = "SELECT FROM "+Bicycle.class.getName();
+		System.out.println("kdjflsd");
 		
 		try{
 			List<Bicycle> s = (List<Bicycle>) pm.newQuery(query).execute(); 
 			if(s.size() > 0){
 				req.setAttribute("bicycle", s);
 			}
-			String url = "/templates/bicycle_all.jsp";
+			String url = "/templates/cycle/map.jsp";
 			try{
 				req.getRequestDispatcher(url).forward(req, resp);
 			}catch(ServletException e){

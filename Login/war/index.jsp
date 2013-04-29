@@ -95,7 +95,7 @@ String update_news = "update_news";%>
 if ("".equals (session_id) || session_id == null) {
 %>
 		<!-- ·Î±×ÀÎ -->
-		<div id ="login"><a href="/templates/member/login.jsp">login</a> | <a href="./member/join.jsp">join</a> | <a href="./etc/sitemap.jsp">sitemap</a></div>
+		<div id ="login"><a href="/templates/member/login.jsp">login</a> | <a href="/templates/member/join.jsp">join</a> | <a href="/templates/etc/sitemap.jsp">sitemap</a></div>
 		<div class="clear"></div>
 <%
 	}
@@ -158,9 +158,9 @@ else {
 						</span>
 					</a>
 					<div class="sdt_box">
-							<a href="./cycle/map.jsp">Map</a>
-							<a href="./cycle/speed.jsp">Speed</a>
-							<a href="./cycle/reservation.jsp">Reservation</a>
+							<a href="/bicycle/all/">Map</a>
+							<a href="/templates/cycle/speed.jsp">Speed</a>
+							<a href="/templates/cycle/reservation.jsp">Reservation</a>
 					</div>
 				</li>
 				<li>

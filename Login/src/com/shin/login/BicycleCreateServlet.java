@@ -28,11 +28,12 @@ public class BicycleCreateServlet extends HttpServlet{
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException{
 		String name = req.getParameter("bicycle");
 		String geoPoint = req.getParameter("geo_point").replaceAll("[() ]", "");
-		if(req.getSession().getAttribute("loginID").equals("admin")){
+		setBicycle(name,geoPoint);
+		/*if(req.getSession().getAttribute("loginID").equals("admin")){
 			setBicycle(name,geoPoint);
 			resp.sendRedirect("/main");
 		}else
-			resp.sendRedirect("/");
+			resp.sendRedirect("/");*/
 	}
 	
 	private void setBicycle(String name, String geo){

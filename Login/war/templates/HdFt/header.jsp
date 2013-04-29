@@ -94,15 +94,15 @@ else {
 %>
 	
 		<!-- 로고-->
-		<div id = "logo"><a href="../index.jsp" alt=""><img src = "../images/logo2.png"  alt="cycle" border=0></a></div> 
+		<div id = "logo"><a href="/index.jsp" alt=""><img src = "../../images/logo2.png"  alt="cycle" border=0></a></div> 
 
 		<div class="clear"></div>
 		<!-- 메뉴-->
 		<div class="content">
 						<ul id="sdt_menu" class="sdt_menu">
 				<li>
-					<a href="../notice/update_news.jsp">
-						<img src="../images/2.jpg" alt=""/>
+					<a href="/templates/notice/update_news.jsp">
+						<img src="../../images/2.jpg" alt=""/>
 						<span class="sdt_active"></span>
 						<span class="sdt_wrap">
 							<span class="sdt_link">Notice</span>
@@ -111,13 +111,13 @@ else {
 					</a>
 					<div class="sdt_box">
 							<a href="/board">Update News</a>
-							<a href="../notice/events.jsp">Events</a>
-							<a href="../notice/info.jsp">Info</a>
+							<a href="/templates/notice/events.jsp">Events</a>
+							<a href="/templates/notice/info.jsp">Info</a>
 					</div>
 				</li>
 				<li>
 					<a href="../user/user_info.jsp">
-						<img src="../images/1.jpg" alt=""/>
+						<img src="../../images/1.jpg" alt=""/>
 						<span class="sdt_active"></span>
 						<span class="sdt_wrap">
 							<span class="sdt_link">User</span>
@@ -130,8 +130,8 @@ else {
 					</div>
 				</li>
 				<li>
-					<a href="../cycle/map.jsp">
-						<img src="../images/3.jpg" alt=""/>
+					<a href="/templates/cycle/map.jsp">
+						<img src="../../images/3.jpg" alt=""/>
 						<span class="sdt_active"></span>
 						<span class="sdt_wrap">
 							<span class="sdt_link">Cycle</span>
@@ -139,9 +139,9 @@ else {
 						</span>
 					</a>
 					<div class="sdt_box">
-							<a href="../cycle/map.jsp">Map</a>
-							<a href="../cycle/speed.jsp">Speed</a>
-							<a href="../cycle/reservation.jsp">Reservation</a>
+							<a href="/bicycle/all/">Map</a>
+							<a href="/templates/cycle/speed.jsp">Speed</a>
+							<a href="/templates/cycle/reservation.jsp">Reservation</a>
 					</div>
 				</li>
 				<li>
