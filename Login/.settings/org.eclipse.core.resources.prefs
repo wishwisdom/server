@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/com/shin/login/model/Board.java=UTF-8
+encoding//src/cycle/BoardCycleServlet.java=UTF-8
+encoding//src/cycle/BoardDeleteCycleServlet.java=UTF-8
+encoding//src/cycle/BoardViewCycleServlet.java=UTF-8
+encoding//src/cycle/BoardWriteCycleServlet.java=UTF-8
+encoding//src/cycle/CheckIdCycleServlet.java=UTF-8
+encoding//src/cycle/MemberCheckCycleServlet.java=UTF-8
+encoding//src/cycle/MemberSaveCycleServlet.java=UTF-8
